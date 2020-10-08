@@ -1,8 +1,9 @@
 import random
 
-buzz = ('continuous testing', 'continuous integration', 'continuous deployment', 'continuous improvement', 'devops')
-adjectives = ('complete', 'modern', 'self-service', 'integrated', 'end-to-end')
-adverbs = ('remarkably', 'enormously', 'substantially', 'significantly', 'seriously')
+buzz = ('continuous testing', 'continuous integration',
+        'continuous deployment', 'continuous improvement', 'devops')
+adjectives = ('complete', 'modern', 'self-service', 'integrated')
+adverbs = ('remarkably', 'enormously', 'substantially', 'significantly')
 verbs = ('accelerates', 'improves', 'enhances', 'revamps', 'boosts')
 
 
@@ -15,7 +16,8 @@ def sample(g, n=1):
 
 def generate_buzz():
     buzz_terms = sample(buzz, 2)
-    phrase = ' '.join([sample(adjectives), buzz_terms[0], sample(adverbs), sample(verbs), buzz_terms[1]])
+    phrase = ' '.join([sample(adjectives), buzz_terms[0], sample(adverbs),
+                       sample(verbs), buzz_terms[1]])
     return phrase.title()
 
 
