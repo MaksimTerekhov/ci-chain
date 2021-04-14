@@ -1,6 +1,6 @@
 # ci-chain
 
-App is just phrases generator, that contains some unit tests. See it: https://stormy-retreat-82778.herokuapp.com
+App is just phrases generator, that contains some unit tests.
 
 **Main goal:** Get knowledge about creating pipeline CI with **Travis**, **Docker** and **Heroku**.
 
