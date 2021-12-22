@@ -1,13 +1,12 @@
 # ci-chain
+This pipeline build with **Travis**, **Docker** and **Heroku**.
 
-App is just phrases generator, that contains some unit tests.
+Application is simple phrase generator with unit tests.
 
-**Main goal:** Get knowledge about creating pipeline CI with **Travis**, **Docker** and **Heroku**.
-
+### How it works:
 ![alt text](https://github.com/Denvy47/ci-chain/blob/master/scheme.png)
 
-- **Travis:** https://travis-ci.org/github/Denvy47/ci-chain (for credentials i use environment variables)
-- **Docker hub:** https://hub.docker.com/repository/docker/denvy47/ci-chain
+- **Travis:** https://travis-ci.org/github/Denvy47/ci-chain
 
 ### How to make new feature:
 1. Create new issue
